@@ -32,7 +32,7 @@ Experiment 2 consists of the Acrobot environment
 
 ![](https://www.gymlibrary.dev/_images/acrobot.gif)
 
-The lowest joint with the left and right arrows on the keyboard. The goal is to get the lower joint above the line.
+The lowest joint is controlled with the left and right arrows on the keyboard. The goal is to get the lower joint above the line.
  
 Play 10 time for practice by running
 ```bash
