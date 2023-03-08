@@ -2,9 +2,9 @@
 ## Instalation
 Assuming both python and git installed:
 ```bash
-  git clone https://github.com/BAMANEE/CollectHumanExperiences
-  cd CollectHumanExperiences
-  pip install -r requirements.txt
+git clone https://github.com/BAMANEE/CollectHumanExperiences
+cd CollectHumanExperiences
+pip install -r requirements.txt
 ```
   
 ## Run the experiments 
@@ -18,12 +18,12 @@ The car is controlled using the left and right arrow of the keyboard. The goal i
 
 Play 10 time for practice by running
 ```bash
- python experiment 1
- ```
+python experiment 1
+```
   
 Play 10 times for real running:
 ```bash
-  python experiment 1
+python experiment 1
 ```
 Try to play to the best of your ability.
 
@@ -34,15 +34,15 @@ Experiment 2 consists of the Acrobot environment
 
 The lowest joint with the left and right arrows on the keyboard. The goal is to get the lower joint above the line.
  
- Play 10 time for practice by running
+Play 10 time for practice by running
 ```bash
-  python experiment 2
+python experiment 2
 ```
   
 Play 10 times for real by 
 
 ```bash
-  python experiment 2
+python experiment 2
 ```
 Try to play to the best of your ability.
 ## Sent the results
