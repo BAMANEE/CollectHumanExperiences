@@ -14,7 +14,7 @@ experiment 1 consists of the Mountain Car environment.
 
 ![](https://www.gymlibrary.dev/_images/mountain_car.gif)
 
-The car is controlled using the left and right arrow of the keyboard. The goal is to reach the yellow flag in the top right with the car.
+The car is controlled using the left and right arrow of the keyboard. The goal is to reach the yellow flag in the top right with the car as fast as possible.
 
 Play 10 time for practice by running
 ```bash
@@ -32,7 +32,7 @@ Experiment 2 consists of the Acrobot environment
 
 ![](https://www.gymlibrary.dev/_images/acrobot.gif)
 
-The lowest joint is controlled with the left and right arrows on the keyboard. The goal is to get the lower joint above the line.
+The lowest joint is controlled with the left and right arrows on the keyboard. The goal is to get the free end of the chain above the line as fast a possible.
  
 Play 10 time for practice by running
 ```bash
