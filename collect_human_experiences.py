@@ -51,7 +51,7 @@ def collect_human_experiences(game, output, n_episodes, folder_name, image=False
     experiences = []
     scores = []
     with Listener(on_press=lambda key: keypress_callback(input_state, key), on_release=lambda key: keyrelease_callback(input_state, key)) as _:
-        for i in range(n_episodes):
+        for i in range(1, n_episodes+1):
             state = env.reset()
             score = 0
             for _ in range(max_t):
@@ -71,7 +71,7 @@ def collect_human_experiences(game, output, n_episodes, folder_name, image=False
     with open(os.path.join(folder_name, "scores.txt"), "w") as file:
         file.write(f"game: {game}\tepisodes: {n_episodes}\taverage score: {np.mean(scores):.2f}\n")
         for i, score in enumerate(scores):
-            file.write(f"episode {i}: {score}\n")
+            file.write(f"episode {i+1}: {score}\n")
 
     env.close()
     pickle.dump(experiences, open(os.path.join(folder_name, output), "wb"))   
