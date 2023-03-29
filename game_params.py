@@ -1,7 +1,7 @@
 """
 Data structure for storing game parameters
 """
-from HumanActionGetter import *
+from human_action_getter import *
 
 game_params = {
     "MountainCar-v0": {

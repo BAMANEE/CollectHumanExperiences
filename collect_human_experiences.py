@@ -11,7 +11,7 @@ import datetime
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
-from HumanActionGetter import *
+from human_action_getter import *
 from game_params import *
 
 class InputState:
