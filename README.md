@@ -3,8 +3,10 @@
 ## Installation
 Assuming both python and git installed:
 ```bash
-git clone https://github.com/BAMANEE/CollectHumanExperiences
+git clone https://github.com/BAMANEE/CollectHumanExperiences 
 cd CollectHumanExperiences
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
   
